@@ -14,7 +14,7 @@ int main(){
     cout << "Please input GPA: ";
 	cin >> a;
 
-	while(i < 10){
+	while(i < 9){
 		if(gpa[i] >= a){
 			cout << id[i] << " " << name[i] << " " << gpa[i] << "\n";
 		}
